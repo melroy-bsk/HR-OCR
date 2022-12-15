@@ -64,7 +64,9 @@ const workIt = async () => {
           .split("Dear")
           .splice(1, 1)[0]
           .toString()
-          .split("The")[0]
+          .split("Thank")[0]
+          .trim()
+          .split("|")[0]
           .trim();
 
         console.log(staffName);

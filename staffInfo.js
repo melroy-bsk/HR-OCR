@@ -1068,7 +1068,7 @@ const staffInfo = [
     staff_code: "LYW",
   },
   {
-    preff_name: "MOLLY HUDSON",
+    preff_name: "Molly Hudson",
     staff_code: "MOH",
   },
   {
