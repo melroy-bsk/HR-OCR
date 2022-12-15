@@ -1,0 +1,21 @@
+{
+  "name": "tesseract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@laserfiche/lf-api-client-core": "^1.1.2",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10",
+    "tesseract.js": "^4.0.1"
+  }
+}
