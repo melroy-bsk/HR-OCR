@@ -57,9 +57,7 @@ const workIt = async () => {
 
       console.log("File Name", fileName);
 
-      Tesseract.recognize(fromPath, "eng", {
-        logger: (m) => console.log(m),
-      }).then(({ data: { text } }) => {
+      Tesseract.recognize(fromPath, "eng").then(({ data: { text } }) => {
         const staffName = text
           .split("Dear")
           .splice(1, 1)[0]
